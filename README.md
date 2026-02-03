@@ -21,7 +21,13 @@ PTS 业务网数据服务程序，用于业务网数据采集，进行数据解�
 3. 运行命令`python main.py`启动程序。
 4. 程序会监听端口，等待数据接收。
 
-## 5. 注意事项
+## 5. 使用目录
+要创建以下目录才能使用脚本:
+```
+mkdir ./traffic/{acc_line,ce_device_interface,ce_main_interface,logical_node_line,pe_physical_interface,physical_node_line}
+```
+
+## 6. 注意事项
 - 请确保在使用程序之前已经正确配置了数据库连接信息。
 - 请确保在使用程序之前已经正确配置了数据解析规则。
 - 请确保在使用程序之前已经正确配置了数据存储规则。
